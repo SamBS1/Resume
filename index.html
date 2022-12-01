@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Хто я?</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/adaptive_style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,7 +19,7 @@
     <div class="container">
       <!-- Navbar start -->
 
-      <div class="navbar">
+      <div class="navbar "data-aos="fade-up">
         <img src="./images/navbar__logo.png" alt="error" class="navbar__logo" />
         <ul class="navbar__list">
           <li class="navbar__item">
@@ -181,5 +182,9 @@
       </footer>
       <!-- footer bar end -->
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
   </body>
 </html>
